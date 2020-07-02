@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}

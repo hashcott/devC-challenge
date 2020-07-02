@@ -1,0 +1,66 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#message {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+input#number[type='number'] {
+  height: 30px;
+  width: 150px;
+  border: 1px solid steelblue;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+input#number[type='number']:focus {
+  border: 1px solid palevioletred;
+  border-radius: 5px;
+}
+
+button#guessButton {
+  display: inline-block;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button#guessButton:focus {
+  background-color: blueviolet;
+}
+
+
+.danger {
+  background-color: #dc3545 !important;
+}
+
+.warning {
+  background-color: #ffc107 !important;
+}
+
+.success {
+  background-color: #28a745 !important;
+}
+
+ul#pastGuesses {
+  margin-top: 40px;
+  list-style: none;
+}
